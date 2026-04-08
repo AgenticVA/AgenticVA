@@ -1,0 +1,14 @@
+paper,venues,year,Benchmark Dataset,,,,,generation process,,,
+,,,text query input,chart image input,Other Input,nl num.,chart num.,source,generation order,generation method,annotation
+ChartEdit,ACL,2025,Y,Y,N,"1,172",233,Arxiv,chart-to-code-to-nl,LLM,Human
+SIGN2VIS,ACL,2025,N,N,Y,"4,007","4,007",nvBench,nl2vis-to-sign2vis,sign.nt,LLM+Human
+nvBench 2.0,NeurIPS,2025,Y,N,N,,,,,,
+Plot2Code,NAACL,2024,,create,,368,368,WebCrawl,chart to nl to code,LLM,Human
+C2,NAACL,2025,,both,,"8,028","8,028",WebCrawl,chart-to-nl,LLM,human
+Text2Chart31,EMNLP,2024,,create,,"11,128","11,128",LLM,nl-to-vis code,LLM,LLM+Human
+Dial-nvBench,KDD,2024,Y,N,N,"21,725",4.495,nvBench,chart-to-NL,Rule,Rule+Human
+MatPlotBench,ACL,2024,,create,,100,100,online Gallery,chart-to-nl,LLM,Human
+VL2NL,CHI,2024,Y,N,N,144,"1,981",WebCrawl,chart-to-nl,LLM,Human
+CNvBench,COLING,2024,Y,N,N,"25,750","7,247",nvBench,NL english2chinese,Human,Human
+nvBench,,,Y,N,N,,,Spider,SQL to VIS,Rule,Human
+MisVisFix,TVCG,2026,N,Y,N,null,360 misleading+90valid,,,,

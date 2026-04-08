@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Autonomy Levels: Balancing Proactivity and Control",
+    "description": "Designing for autonomy requires balancing computational costs, user expertise, and cognitive load as systems transition from Level 1 reactive agents to Level 4 proactive ecosystems.",
+    "icon": "activity",
+    "colorClass": "bg-indigo-500",
+    "textClass": "text-indigo-500",
+    "guidelines": [
+      {
+        "title": "Applicable Autonomy Allocation",
+        "rule": "Adjust autonomy dynamically based on task risk and user expertise, reserving human authority for sensitive domains.",
+        "desc": "During our review of autonomy levels, a common pitfall observed was the over-automation of high-stakes tasks, leading to user distrust and critical errors. For instance, tasks with high certainty and low complexity benefit from maximum efficiency at higher autonomy (e.g., Level 3 or 4), where the Planner can proactively decompose routine goals and coordinate execution while the Reviewer validates intermediate outputs. Conversely, for exploratory tasks or high-risk domains (e.g., healthcare data analysis), delegating ultimate decision-making to agents often results in violations of safety and trust. Furthermore, user expertise dictates the optimal autonomy level; novice users may benefit from guided, highly autonomous workflows, whereas domain experts often require granular control over the analytical process, finding over-automation restrictive.\nSystems should not blindly pursue the highest level of self-organization. Designers must implement dynamic autonomy allocation mechanisms that adapt to both the inherent risk of the analytical task and the proficiency level of the user.",
+        "papers": [
+          "nvAgent",
+          "ProactiveVA",
+          "LightVA",
+          "PhenoFlow",
+          "FlowForge"
+        ]
+      },
+      {
+        "title": "Non-disruptive Proactivity",
+        "rule": "When using behavioral monitoring for anticipatory help, employ ephemeral UI elements to maintain cognitive flow.",
+        "desc": "As systems evolve to anticipate user needs (Section~\\ref{sec:interaction}), a recurring usability issue is the interruption of the user's analytical flow by overly aggressive proactive prompts.\nGoing beyond passively responding to one-off queries, higher-level systems anticipate analytical needs. FlowForge elevates the user to a supervisor who provides high-level strategic intent, while the system proactively suggests workflow optimizations. However, poorly timed suggestions can be distracting. ProactiveVA successfully mitigates this by monitoring behavioral features, such as prolonged pauses or repetitive toggling, to dynamically allocate autonomy levels.\nTo achieve non-disruptive proactivity, systems must utilize ephemeral UI elements, like tooltips that disappear if ignored, ensuring that the agent's assistance remains helpful rather than a cognitive burden.",
+        "papers": [
+          "FlowForge",
+          "ProactiveVA",
+          "LightVA",
+          "LEVA"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Agentic Roles: Enhancing Collaboration and Robustness",
+    "description": "The co-evolution of agentic roles introduces new requirements for transparency, computation, evaluation, and memory management.",
+    "icon": "users",
+    "colorClass": "bg-emerald-500",
+    "textClass": "text-emerald-500",
+    "guidelines": [
+      {
+        "title": "Hybrid Computation for the Creator",
+        "rule": "Offload deterministic calculations to rule-based skills, reserving LLMs strictly for high-level orchestration.",
+        "desc": "During our analysis of the execution phase, a significant bottleneck emerged: relying solely on LLMs for complex data processing and visual mapping often led to unacceptable latency and mathematical hallucinations. For instance, our review of LEVA revealed that pure LLM accuracy for complex mathematical aggregations was relatively low, leading them to use rule-based methods for accurate tabular data computation while using the Planner strictly for orchestration. Similarly, deep autonomous reasoning introduces significant latency; MisVisFix reports that sequential workflows can take several minutes, severely disrupting interactive analysis.\nTo address the trade-off between agent flexibility and execution reliability, designers must adopt a hybrid architecture. The Creator should delegate deterministic calculations to rule-based functions or explicit code scripts, reserving the LLM's cognitive overhead strictly for high-level workflow orchestration.",
+        "papers": [
+          "LEVA",
+          "MisVisFix",
+          "CoDA",
+          "NL4DV-LLM",
+          "Gyarmati et Al."
+        ]
+      },
+      {
+        "title": "Actionable Transparency for the Planner and Reviewer",
+        "rule": "Expose internal planning logic and allow users to modify the execution path mid-process.",
+        "desc": "A major barrier to user trust in agentic systems is the \"black box\" nature of multi-step planning and self-correction.\nSystems must provide clear explanatory feedback detailing why a Planner made a specific decision and how the Reviewer performs self-correction. Transparency can be achieved through execution traces, ReAct-style thought logs, or aligned thinking steps. However, passive transparency is insufficient. Crucially, this transparency must be actionable; LightVA provides scores and natural language explanations for its decomposition decisions, allowing humans to intervene in the execution logic (e.g., switching from parallel to serial execution) as strategic supervisors.\nDesigners must expose the internal logic of planning and evaluation agents and provide interactive interfaces that allow users to override, modify, or steer the execution path mid-process. Furthermore, evaluation metrics for the Reviewer must evolve beyond code execution to include semantic alignment and aesthetic quality.",
+        "papers": [
+          "NL4DV-Stylist",
+          "Prompt4Vis",
+          "nvAgent",
+          "NL4DV-LLM",
+          "C2",
+          "FlowForge"
+        ]
+      },
+      {
+        "title": "Persistent Contextual Memory for the Context Manager",
+        "rule": "Maintain a global state of user intent and workflow history to ensure cross-agent consistency.",
+        "desc": "In multi-agent architectures, the fragmentation of context across different roles often leads to incoherent analytical sessions and forgotten user intents.\nTo support reflection and multi-turn collaboration, the Context Manager must build a semantically rich, persistent knowledge graph. Effective memory management ensures long-term consistency, whether through a global TODO list or a \"design space\" that records explored architectural alternatives. Without this, agents easily lose track of the user's focus. In multi-modal settings, systems like InterChat use \"contextual interaction linking\" to ground conversational responses in the current visual state, preventing agents from losing track of the user's spatial focus.\nThe Context Manager must be designed as a robust, centralized memory module that synchronizes state across all agents, preserving both the dialogue history and the evolving visual artifacts.",
+        "papers": [
+          "Aggarwal et Al.",
+          "C2",
+          "FlowForge",
+          "ProactiveVA",
+          "LightVA"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "VA Workflow: Managing Data, Modalities, and Privacy",
+    "description": "As agentic workflows reshape the traditional visual analytics pipeline, systems must adapt how they handle data processing and visual mapping.",
+    "icon": "layers",
+    "colorClass": "bg-blue-500",
+    "textClass": "text-blue-500",
+    "guidelines": [
+      {
+        "title": "Metadata-First Abstraction in Data Processing",
+        "rule": "Operate on metadata summaries rather than raw datasets to ensure computational efficiency and data privacy.",
+        "desc": "A critical technical limitation observed in the Data Processing stage is the LLM context window, which cannot accommodate raw, large-scale datasets.\nDirectly feeding raw data into an LLM is computationally prohibitive and prone to hallucination. CoDA advocates for a \"metadata-first abstraction\" strategy, where agents first profile the data to generate structural summaries. The Planner and Reviewer operate exclusively on this metadata, generating execution scripts that the Creator subsequently applies to the raw data. This separation also supports privacy-preserving orchestration; by restricting LLM access to metadata, systems can generate SQL queries locally without exposing sensitive raw patient data to external APIs.\nData processing workflows must abstract raw data into rich metadata profiles, ensuring agents reason over structure rather than raw values, thereby enhancing both computational efficiency and data privacy.",
+        "papers": [
+          "CoDA",
+          "NL4DV-LLM",
+          "Gyarmati et Al.",
+          "FlowForge",
+          "ProactiveVA"
+        ]
+      },
+      {
+        "title": "Hybrid Contextual Grounding in Visual Mapping",
+        "rule": "Provide agents with both rendered visual outputs and underlying generation code for precise editing.",
+        "desc": "When agents act as reviewers or editors, relying solely on visual perception (e.g., MLLMs analyzing images) often results in imprecise modifications.\nDuring the Visual Mapping and View Transformation stages, evaluation and editing must account for the modalities available to the agent. Relying purely on visual perception often leads to inaccuracies. ChartEdit proves that systems relying purely on visual perception (\"Chart w/o Code\") struggle with data precision compared to those with hybrid context (\"Chart w/ Code\").\nContextual grounding via code is vital for enabling accurate assessment and modification of visualizations. Agents must be provided with a dual context, both the rendered visual output and the underlying generation code, to ensure high-precision reasoning and logic preservation.",
+        "papers": [
+          "HARVis",
+          "C2",
+          "Bavisitter",
+          "NL4DV-LLM"
+        ]
+      },
+      {
+        "title": "Multi-modal Synergy in Interaction",
+        "rule": "Blend natural language for abstract intent with direct GUI manipulation for precise spatial selection.",
+        "desc": "In interactive workflows, relying solely on natural language for spatial tasks is cumbersome, while pure GUI interactions struggle to convey complex analytical intents.\nPurely text-based interfaces struggle with spatial references, while pure GUI interactions can be tedious for expressing abstract intents. Systems should adopt a synergistic approach: natural language provides the action or abstract intent, while direct visual manipulation (e.g., lassoing, brushing) provides precision and spatial scope.\nFurthermore, beyond explicit commands, agents should recognize implicit intent during the workflow. When a user hovers over a cluster or brushes a subset of data, the agent should interpret these operational behaviors as implicit context.\nInteraction design must seamlessly blend modalities. Systems should allow users to combine linguistic intent with spatial gestures, keeping the agent's mental model continuously synchronized with the user's visual focus through both explicit commands and implicit behaviors.",
+        "papers": [
+          "SUPQA",
+          "InterChat",
+          "VizTA",
+          "Plume"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+[
+  { "id": "planner", "name": "Planner", "icon": "activity", "desc": "User Query Clarification, Task Decomposition, Workflow Orchestration" },
+  { "id": "creator", "name": "Creator", "icon": "layers", "desc": "Data Profiling, Visual Mapping, Multi-view Arrangement, Annotation" },
+  { "id": "reviewer", "name": "Reviewer", "icon": "check-circle", "desc": "Grammar Validation, Semantic Validation, Aesthetics Estimation" },
+  { "id": "context_manager", "name": "Context Manager", "icon": "settings", "desc": "Dialogue History, Data Profiles, Creation History, Tool Profiles" }
+]

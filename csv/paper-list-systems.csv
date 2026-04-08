@@ -1,0 +1,56 @@
+papername,papercite,year,category,planner,creator,critic,context_manager,data_profiling,data_integration,data_transformation,spacial_substrate,graphical_elements,graphical_properties,spacial_navigation,hierarchy_drilling,multi_view,annotation,summarization,storytelling,multi_term_dialogue,multi_modality
+NL4DV-Stylist,ji2025NL4DVStylistStylingData,2025,L2,1,1,0,1,0,0,1,1,1,1,0,0,0,0,0,0,1,1
+Prompt4Vis,li2024Prompt4VisPromptingLarge,2025,L2,1,1,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0
+nvAgent,ouyang2025NvAgentAutomatedData,2025,L3,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0
+SUPQA,huang2025SUPQALLMbasedGeoVisualization,2025,L2,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1
+DataVisT5,wan2025DataVisT5PretrainedLanguage,2025,L1,0,1,0,0,0,1,1,1,1,1,0,0,0,0,1,0,0,1
+Aggarwal et al.,aggarwal2025GoalDrivenDataStory,2025,L2,1,1,0,1,0,0,1,1,1,1,0,1,1,0,1,1,0,1
+C2,koh2025C^2ScalableAutoFeedback,2025,L3,1,1,1,1,0,0,1,1,1,1,0,0,0,1,0,0,1,0
+Plume,lisnic2025PlumeScaffoldingText,2025,L3,1,1,1,1,0,0,0,1,1,1,0,0,1,1,1,1,1,0
+Jupybara,wang2025JupybaraOperationalizingDesign,2025,L2,1,1,1,1,0,0,1,1,1,1,0,0,0,1,1,1,1,1
+Data Formulator 2,wang2025DataFormulator2,2025,L2,1,1,0,1,0,0,1,1,1,1,0,1,0,1,0,0,1,1
+HARVis,shi2025AugmentingRealisticCharts,2025,L1,0,1,0,1,0,0,1,1,1,1,1,0,0,1,0,0,0,1
+Pluto,srinivasan2025PlutoAuthoringSemantically,2025,L2,0,1,0,1,0,0,1,1,1,1,0,0,0,1,1,1,1,1
+DeepVis,shuai2025DeepVISBridgingNatural,2025,L3,1,1,1,1,1,0,1,1,1,0,0,0,0,0,1,0,0,1
+Text2Vis,rahman2025Text2VisChallengingDiverse,2025,L3,0,1,1,0,0,0,1,1,1,1,0,0,1,1,0,0,0,0
+DataNarrative,islam2024DataNarrativeAutomatedDataDriven,2025,L3,1,1,1,1,1,0,0,1,1,1,0,0,0,1,0,1,0,0
+RECITKIT,setlur2025RECITKITSpatialToolkit,2025,L2,1,1,0,1,0,1,1,1,1,1,1,1,1,1,0,1,0,1
+SpeechVisNet,zhang2026SpeechtoVisualizationEndtoEndSpeechDriven,2025,L1,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1
+nvBench 2.0,luo2025NvBench20Resolving,2025,L2,0,1,0,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0
+InterChat,chen2025InterChatEnhancingGenerative,2025,L2,1,1,0,1,1,0,1,1,1,1,1,0,1,1,1,0,1,1
+Dataweaver,fu2025DATAWEAVERAuthoringDataDriven,2025,L2,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,0,0
+ChartGPT,tian2025ChartGPTLeveragingLLMs,2025,L2,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1
+VisEval,chen2025VisEvalBenchmarkData,2025,L1,0,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0
+Text2Chart31,pesaranzadeh2024Text2Chart31InstructionTuning,2024,L1,0,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0
+PhenoFlow,kim2024PhenoFlowHumanLLMDriven,2024,L2,1,1,0,1,1,1,1,1,1,0,1,1,1,0,0,0,1,1
+Blace,lyi2024LearnableExpressiveVisualization,2024,L2,0,1,0,1,0,0,1,1,1,0,1,0,0,0,0,0,0,0
+LEVA,zhao2024LEVAUsingLarge,2024,L2,1,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+Bavisitter,choi2024BavisitterIntegratingDesign,2024,L3,0,1,1,1,0,0,1,1,1,1,0,0,0,1,0,0,1,1
+NL4DV-LLM,sah2024GeneratingAnalyticSpecifications,2024,L3,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,1,0
+FathomGPT,khanal2024FathomGPTNaturalLanguage,2024,L3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+Dial-nvBench,song2024MarryingDialogueSystems,2024,L2,1,1,0,1,1,0,1,1,1,0,0,0,0,0,0,0,1,0
+MatPlotAgent,yang2024MatPlotAgentMethodEvaluation,2024,L3,1,1,1,1,0,0,1,1,1,1,0,0,0,1,0,0,0,1
+Wu et al.,wu2024AutomatedDataVisualization,2024,L1,0,1,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0
+DynaVis,vaithilingam2024DynaVisDynamicallySynthesized,2024,L2,1,1,0,1,1,0,1,1,1,1,0,0,0,1,1,0,1,1
+Data Formulator,wang2023DataFormulatorAIpowered,2024,L2,0,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1
+Li et al.,li2024VisualizationGenerationLarge,2024,L1,0,1,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0
+DASH,bromley2024DASHBimodalData,2024,L2,1,1,0,1,1,0,1,1,1,1,0,1,1,1,1,1,0,1
+Liu et al.,liu2024BreathingNewLife,2024,L1,0,1,0,1,0,0,1,1,1,1,0,0,0,1,0,0,1,0
+VIST5,voigt2023VIST5AdaptiveRetrievalAugmented,2023,L1,0,1,0,1,0,0,1,1,1,0,1,0,1,1,0,0,1,1
+DataTales,sultanum2023DATATALESInvestigatingUse,2023,L2,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+LIDA,dibia2023LIDAToolAutomatic,2023,L2,1,1,0,1,1,0,1,1,1,1,0,0,0,0,0,0,1,1
+AI Threads,hong2023ConversationalAIThreads,2023,L1,0,1,0,1,1,0,1,1,1,1,0,0,0,1,1,0,1,1
+Chat2VIS,maddigan2023Chat2VISGeneratingData,2023,L1,0,1,0,0,1,0,1,1,1,1,0,0,0,0,0,0,0,0
+NL4DV 2,mitra2022FacilitatingConversationalInteraction,2022,L2,1,1,0,1,0,0,1,1,1,0,0,1,0,0,0,0,1,1
+RGVisNet,song2022RGVisNetHybridRetrievalGeneration,2022,L1,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0
+PI2,chen2022PI2EndtoendInteractive,2022,L2,0,1,0,1,0,1,1,1,1,1,1,1,1,1,0,0,0,1
+Sevi,tang2022SeviSpeechtoVisualizationNeural,2022,L1,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1
+ncNet,luo2022NaturalLanguageVisualization,2022,L1,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0
+FlowForge,flowforge2026,2026,L4,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1,1
+ProactiveVA,proactiveVA2026,2026,L4,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+CoDA,chen2025codaagenticsystemscollaborative,2025,L3,1,1,1,1,1,0,1,1,1,1,0,0,1,0,0,0,0,0
+Gyarmati et al.,gyarmati2025composableagenticautomatedvisual,2025,L3,1,1,1,1,1,0,1,1,1,1,0,0,0,0,1,1,0,0
+LightVA,zhao2025LightVALightweightVisual,2025,L4,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1
+VizTA,vizTA2025,2025,L2,1,1,0,1,0,0,1,0,0,1,0,0,0,1,1,0,1,1
+Shao et al.,shao2025dolanguagemodelagents,2025,L2,0,0,1,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0
+AVA,ava2024,2024,L3,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,1,1

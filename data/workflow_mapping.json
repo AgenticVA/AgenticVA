@@ -1,0 +1,6 @@
+{
+  "Data Processing": ["data_profiling", "data_integration", "data_transformation"],
+  "Visual Mapping": ["spacial_substrate", "graphical_elements", "graphical_properties"],
+  "View Transformation": ["spacial_navigation", "hierarchy_drilling", "multi_view"],
+  "Presentation": ["annotation", "summarization", "storytelling"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "nl2dv-survey-site",
+  "private": true,
+  "scripts": {
+    "build:data": "node scripts/build-app-data.mjs",
+    "build:bundle": "node scripts/build-site-bundle.mjs",
+    "prebuild:css": "npm run build:data && npm run build:bundle",
+    "build:css": "tailwindcss -i ./src/input.css -o ./styles.css --minify",
+    "build": "npm run build:data && npm run build:bundle && npm run build:css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

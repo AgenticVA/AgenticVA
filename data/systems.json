@@ -1,0 +1,1483 @@
+[
+  {
+    "id": "ji2025NL4DVStylistStylingData",
+    "title": "NL4DV-Stylist",
+    "authors": "Ji, Tenghao, Narechania, Arpit A",
+    "year": 2025,
+    "level": 2, 
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "https://osf.io/fs4en_v1/",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "li2024Prompt4VisPromptingLarge",
+    "title": "Prompt4Vis",
+    "authors": "Li, Shuaimin, Chen, Xuanang, Song, Yuanfeng, Song, Yunze, Zhang, Chen",
+    "year": 2025,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5"
+    ],
+    "link": "http://arxiv.org/abs/2402.07909",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "ouyang2025NvAgentAutomatedData",
+    "title": "nvAgent",
+    "authors": "Ouyang, Geliang, Chen, Jingyao, Nie, Zhihe, Gui, Yi, Wan, Yao, Zhang, Hongyu, Chen, Dongping",
+    "year": 2025,
+    "level": 3,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G1",
+      "G3",
+      "G4",
+      "G5"
+    ],
+    "link": "https://aclanthology.org/2025.acl-long.960/",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "huang2025SUPQALLMbasedGeoVisualization",
+    "title": "SUPQA",
+    "authors": "Huang, Haiwen, Chen, Juntong, Wang, Changbo, Li, Chenhui",
+    "year": 2025,
+    "level": 2,
+    "roles": [
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G5",
+      "G6"
+    ],
+    "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.70106",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "wan2025DataVisT5PretrainedLanguage",
+    "title": "DataVisT5",
+    "authors": "Wan, Zhuoyue, Song, Yuanfeng, Li, Shuaimin, Zhang, Chen Jason, Wong, Raymond Chi-Wing",
+    "year": 2025,
+    "level": 1,
+    "roles": [
+      "Creator"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G6"
+    ],
+    "link": "http://arxiv.org/abs/2408.07401",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "aggarwal2025GoalDrivenDataStory",
+    "title": "Aggarwal  et al.",
+    "authors": "Aggarwal, Aniya, Gupta, Ankush, Bithel, Shivangi, Agarwal, Arvind",
+    "year": 2025,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "https://aclanthology.org/2025.naacl-industry.56/",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "koh2025C^2ScalableAutoFeedback",
+    "title": "$C^2$",
+    "authors": "Koh, Woosung, Yoon, Janghan, Lee, MinHyung, Song, Youngjin, Cho, Jaegwan, Kang, Jaehyun, Kim, Taehyeon, Yun, Se-Young, Yu, Youngjae, Lee, Bongshin",
+    "year": 2025,
+    "level": 3,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G1",
+      "G3",
+      "G4",
+      "G5"
+    ],
+    "link": "https://aclanthology.org/2025.naacl-long.232/",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "lisnic2025PlumeScaffoldingText",
+    "title": "Plume",
+    "authors": "Lisnic, Maxim, Setlur, Vidya, Sultanum, Nicole",
+    "year": 2025,
+    "level": 3,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G1",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "https://dl.acm.org/doi/10.1145/3706598.3713580",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "wang2025JupybaraOperationalizingDesign",
+    "title": "Jupybara",
+    "authors": "Wang, Huichen Will, Birnbaum, Larry, Setlur, Vidya",
+    "year": 2025,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "https://dl.acm.org/doi/10.1145/3706598.3713913",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "wang2025DataFormulator2",
+    "title": "Data Formulator 2",
+    "authors": "Wang, Chenglong, Lee, Bongshin, Drucker, Steven M., Marshall, Dan, Gao, Jianfeng",
+    "year": 2025,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "https://dl.acm.org/doi/10.1145/3706598.3713296",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "shi2025AugmentingRealisticCharts",
+    "title": "HARVis",
+    "authors": "Shi, Yao, Li, Boyan, Luo, Yuyu, Chen, Lei, Tang, Nan",
+    "year": 2025,
+    "level": 1,
+    "roles": [
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G5",
+      "G6"
+    ],
+    "link": "https://dl.acm.org/doi/10.1145/3706598.3714320",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "srinivasan2025PlutoAuthoringSemantically",
+    "title": "Pluto",
+    "authors": "Srinivasan, Arjun, Setlur, Vidya, Satyanarayan, Arvind",
+    "year": 2025,
+    "level": 2,
+    "roles": [
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G5",
+      "G6"
+    ],
+    "link": "https://dl.acm.org/doi/10.1145/3708359.3712122",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "shuai2025DeepVISBridgingNatural",
+    "title": "DeepVis",
+    "authors": "Shuai, Zhihao, Li, Boyan, Yan, Siyu, Luo, Yuyu, Yang, Weikai",
+    "year": 2025,
+    "level": 3,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G1",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "http://arxiv.org/abs/2508.01700",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "rahman2025Text2VisChallengingDiverse",
+    "title": "Text2Vis",
+    "authors": "Rahman, Mizanur, Laskar, Md Tahmid Rahman, Joty, Shafiq, Hoque, Enamul",
+    "year": 2025,
+    "level": 3,
+    "roles": [
+      "Creator",
+      "Reviewer"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G1",
+      "G3",
+      "G4",
+      "G6"
+    ],
+    "link": "http://arxiv.org/abs/2507.19969",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "islam2024DataNarrativeAutomatedDataDriven",
+    "title": "DataNarrative",
+    "authors": "Islam, Mohammed Saidul, Laskar, Md Tahmid Rahman, Parvez, Md Rizwan, Hoque, Enamul, Joty, Shafiq",
+    "year": 2025,
+    "level": 3,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G1",
+      "G3",
+      "G4",
+      "G5"
+    ],
+    "link": "http://arxiv.org/abs/2408.05346",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "setlur2025RECITKITSpatialToolkit",
+    "title": "RECITKIT",
+    "authors": "Setlur, Vidya, Ridet, Samuel",
+    "year": 2025,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "http://arxiv.org/abs/2508.18670",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "zhang2026SpeechtoVisualizationEndtoEndSpeechDriven",
+    "title": "SpeechVisNet",
+    "authors": "",
+    "year": 2025,
+    "level": 1,
+    "roles": [
+      "Creator"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3",
+      "G6"
+    ],
+    "link": "",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "luo2025NvBench20Resolving",
+    "title": "Step-NL2VIS",
+    "authors": "Luo, Tianqi, Huang, Chuhan, Shen, Leixian, Li, Boyan, Shen, Shuyu, Zeng, Wei, Tang, Nan, Luo, Yuyu",
+    "year": 2025,
+    "level": 2,
+    "roles": [
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3",
+      "G5"
+    ],
+    "link": "",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "chen2025InterChatEnhancingGenerative",
+    "title": "InterChat",
+    "authors": "",
+    "year": 2025,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "fu2025DATAWEAVERAuthoringDataDriven",
+    "title": "Dataweaver",
+    "authors": "Fu, Yu, Bromley, Dennis, Setlur, Vidya",
+    "year": 2025,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "http://arxiv.org/abs/2503.22946",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "tian2025ChartGPTLeveragingLLMs",
+    "title": "ChartGPT",
+    "authors": "",
+    "year": 2025,
+    "level": 2,
+    "roles": [
+      "Creator"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3",
+      "G6"
+    ],
+    "link": "",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "chen2025VisEvalBenchmarkData",
+    "title": "CoML4Vis",
+    "authors": "Chen, Nan, Zhang, Yuge, Xu, Jiahang, Ren, Kan, Yang, Yuqing",
+    "year": 2025,
+    "level": 1,
+    "roles": [
+      "Creator"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3"
+    ],
+    "link": "https://ieeexplore.ieee.org/document/10670425/",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "pesaranzadeh2024Text2Chart31InstructionTuning",
+    "title": "Text2Chart31",
+    "authors": "Pesaran Zadeh, Fatemeh, Kim, Juyeon, Kim, Jin-Hwa, Kim, Gunhee",
+    "year": 2024,
+    "level": 1,
+    "roles": [
+      "Creator",
+      "Reviewer"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3",
+      "G4"
+    ],
+    "link": "https://aclanthology.org/2024.emnlp-main.640/",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "kim2024PhenoFlowHumanLLMDriven",
+    "title": "PhenoFlow",
+    "authors": "Kim, Jaeyoung, Lee, Sihyeon, Jeon, Hyeon, Lee, Keon-Joo, Bae, Hee-Joon, Kim, Bohyoung, Seo, Jinwook",
+    "year": 2024,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "https://arxiv.org/abs/2407.16329v1",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "lyi2024LearnableExpressiveVisualization",
+    "title": "Blace",
+    "authors": "L'Yi, Sehi, family=Brandt, given=Astrid, prefix=van den, useprefix=true, Adams, Etowah, Nguyen, Huyen N, Gehlenborg, Nils",
+    "year": 2024,
+    "level": 2,
+    "roles": [
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation"
+    ],
+    "guidelines": [
+      "G3",
+      "G5",
+      "G6"
+    ],
+    "link": "https://osf.io/pjcn4_v1/",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "zhao2024LEVAUsingLarge",
+    "title": "LEVA",
+    "authors": "Zhao, Yuheng, Zhang, Yixing, Zhang, Yu, Zhao, Xinyi, Wang, Junjie, Shao, Zekai, Turkay, Cagatay, Chen, Siming",
+    "year": 2024,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "https://arxiv.org/abs/2403.05816v1",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "choi2024BavisitterIntegratingDesign",
+    "title": "Bavisitter",
+    "authors": "Choi, Jiwon, Lee, Jaeung, Jo, Jaemin",
+    "year": 2024,
+    "level": 3,
+    "roles": [
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G1",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "https://www.computer.org/csdl/proceedings-article/vis/2024/548500a121/22lDZYYv9MQ",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "sah2024GeneratingAnalyticSpecifications",
+    "title": "NL4DV-LLM",
+    "authors": "Sah, Subham, Mitra, Rishab, Narechania, Arpit, Endert, Alex, Stasko, John, Dou, Wenwen",
+    "year": 2024,
+    "level": 3,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G1",
+      "G3",
+      "G4",
+      "G5"
+    ],
+    "link": "http://arxiv.org/abs/2408.13391",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "khanal2024FathomGPTNaturalLanguage",
+    "title": "FathomGPT",
+    "authors": "Khanal, Nabin, Yu, Chun Meng, Chiu, Jui-Cheng, Chaudhary, Anav, Zhang, Ziyue, Katija, Kakani, Forbes, Angus G.",
+    "year": 2024,
+    "level": 3,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G1",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "https://dl.acm.org/doi/10.1145/3654777.3676462",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "song2024MarryingDialogueSystems",
+    "title": "MMCoVisNet",
+    "authors": "Song, Yuanfeng, Zhao, Xuefang, Wong, Raymond Chi-Wing",
+    "year": 2024,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5"
+    ],
+    "link": "https://dl.acm.org/doi/10.1145/3637528.3671935",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "yang2024MatPlotAgentMethodEvaluation",
+    "title": "MatPlotAgent",
+    "authors": "Yang, Zhiyu, Zhou, Zihan, Wang, Shuo, Cong, Xin, Han, Xu, Yan, Yukun, Liu, Zhenghao, Tan, Zhixing, Liu, Pengyuan, Yu, Dong, Liu, Zhiyuan, Shi, Xiaodong, Sun, Maosong",
+    "year": 2024,
+    "level": 3,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G1",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "https://aclanthology.org/2024.findings-acl.701/",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "wu2024AutomatedDataVisualization",
+    "title": "Wu et al.",
+    "authors": "Wu, Yang, Wan, Yao, Zhang, Hongyu, Sui, Yulei, Wei, Wucai, Zhao, Wei, Xu, Guandong, Jin, Hai",
+    "year": 2024,
+    "level": 1,
+    "roles": [
+      "Creator"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3"
+    ],
+    "link": "https://dl.acm.org/doi/10.1145/3654992",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "vaithilingam2024DynaVisDynamicallySynthesized",
+    "title": "DynaVis",
+    "authors": "Vaithilingam, Priyan, Glassman, Elena L., Inala, Jeevana Priya, Wang, Chenglong",
+    "year": 2024,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "https://dl.acm.org/doi/10.1145/3613904.3642639",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "wang2023DataFormulatorAIpowered",
+    "title": "Data Formulator",
+    "authors": "Wang, Chenglong, Thompson, John, Lee, Bongshin",
+    "year": 2024,
+    "level": 2,
+    "roles": [
+      "Creator"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3",
+      "G6"
+    ],
+    "link": "https://ieeexplore.ieee.org/document/10292609/",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "li2024VisualizationGenerationLarge",
+    "title": "Li  et al.",
+    "authors": "Li, Guozheng, Wang, Xinyu, Aodeng, Gerile, Zheng, Shunyuan, Zhang, Yu, Ou, Chuangxin, Wang, Song, Liu, Chi Harold",
+    "year": 2024,
+    "level": 1,
+    "roles": [
+      "Creator"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3"
+    ],
+    "link": "http://arxiv.org/abs/2401.11255",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "bromley2024DASHBimodalData",
+    "title": "DASH",
+    "authors": "Bromley, Dennis, Setlur, Vidya",
+    "year": 2024,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "https://arxiv.org/abs/2408.01011v2",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "liu2024BreathingNewLife",
+    "title": "Liu et al.",
+    "authors": "Liu, Can, Yu, Jiacheng, Guo, Yuhan, Zhuang, Jiayi, Luo, Yuchu, Yuan, Xiaoru",
+    "year": 2024,
+    "level": 1,
+    "roles": [
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G5"
+    ],
+    "link": "",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "voigt2023VIST5AdaptiveRetrievalAugmented",
+    "title": "VIST5",
+    "authors": "Voigt, Henrik, Carvalhais, Nuno, Meuschke, Monique, Reichstein, Markus, Zarrieß, Sina, Lawonn, Kai",
+    "year": 2023,
+    "level": 1,
+    "roles": [
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G5",
+      "G6"
+    ],
+    "link": "https://aclanthology.org/2023.emnlp-demo.5/",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "sultanum2023DATATALESInvestigatingUse",
+    "title": "DataTales",
+    "authors": "Sultanum, Nicole, Srinivasan, Arjun",
+    "year": 2023,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5"
+    ],
+    "link": "https://ieeexplore.ieee.org/document/10360883/",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "dibia2023LIDAToolAutomatic",
+    "title": "LIDA",
+    "authors": "Dibia, Victor",
+    "year": 2023,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "https://aclanthology.org/2023.acl-demo.11/",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "hong2023ConversationalAIThreads",
+    "title": "AI Threads",
+    "authors": "Hong, Matt-Heun, Crisan, Anamaria",
+    "year": 2023,
+    "level": 1,
+    "roles": [
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G5",
+      "G6"
+    ],
+    "link": "http://arxiv.org/abs/2311.05590",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "maddigan2023Chat2VISGeneratingData",
+    "title": "Chat2VIS",
+    "authors": "Maddigan, Paula, Susnjak, Teo",
+    "year": 2023,
+    "level": 1,
+    "roles": [
+      "Creator"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3"
+    ],
+    "link": "https://ieeexplore.ieee.org/document/10121440/",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "mitra2022FacilitatingConversationalInteraction",
+    "title": "NL4DV 2",
+    "authors": "Mitra, Rishab, Narechania, Arpit, Endert, Alex, Stasko, John",
+    "year": 2022,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "http://arxiv.org/abs/2207.00189",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "song2022RGVisNetHybridRetrievalGeneration",
+    "title": "RGVisNet",
+    "authors": "Song, Yuanfeng, Zhao, Xuefang, Wong, Raymond Chi-Wing, Jiang, Di",
+    "year": 2022,
+    "level": 1,
+    "roles": [
+      "Creator"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3"
+    ],
+    "link": "https://dl.acm.org/doi/10.1145/3534678.3539330",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "chen2022PI2EndtoendInteractive",
+    "title": "PI2",
+    "authors": "Chen, Yiru, Wu, Eugene",
+    "year": 2022,
+    "level": 2,
+    "roles": [
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G5",
+      "G6"
+    ],
+    "link": "https://dl.acm.org/doi/10.1145/3514221.3526166",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "tang2022SeviSpeechtoVisualizationNeural",
+    "title": "Sevi",
+    "authors": "Tang, Jiawei, Luo, Yuyu, Ouzzani, Mourad, Li, Guoliang, Chen, Hongyang",
+    "year": 2022,
+    "level": 1,
+    "roles": [
+      "Creator"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3",
+      "G6"
+    ],
+    "link": "https://dl.acm.org/doi/10.1145/3514221.3520150",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "luo2022NaturalLanguageVisualization",
+    "title": "ncNet",
+    "authors": "Luo, Yuyu, Tang, Nan, Li, Guoliang, Tang, Jiawei, Chai, Chengliang, Qin, Xuedi",
+    "year": 2022,
+    "level": 1,
+    "roles": [
+      "Creator"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping"
+    ],
+    "guidelines": [
+      "G3"
+    ],
+    "link": "https://ieeexplore.ieee.org/document/9617561/",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "flowforge2026",
+    "title": "FlowForge",
+    "authors": "",
+    "year": 2026,
+    "level": 4,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "proactiveVA2026",
+    "title": "ProactiveVA",
+    "authors": "",
+    "year": 2026,
+    "level": 4,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "chen2025codaagenticsystemscollaborative",
+    "title": "CoDA",
+    "authors": "",
+    "year": 2025,
+    "level": 3,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation"
+    ],
+    "guidelines": [
+      "G1",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "gyarmati2025composableagenticautomatedvisual",
+    "title": "Gyarmati et al.",
+    "authors": "",
+    "year": 2025,
+    "level": 3,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G1",
+      "G3",
+      "G4",
+      "G5"
+    ],
+    "link": "",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "zhao2025LightVALightweightVisual",
+    "title": "LightVA",
+    "authors": "Zhao, Yuheng, Wang, Junjie, Xiang, Linbin, Zhang, Xiaowen, Guo, Zifei, Turkay, Cagatay, Zhang, Yu, Chen, Siming",
+    "year": 2025,
+    "level": 4,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "http://arxiv.org/abs/2411.05651",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "vizTA2025",
+    "title": "VizTA",
+    "authors": "",
+    "year": 2025,
+    "level": 2,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  },
+  {
+    "id": "shao2025dolanguagemodelagents",
+    "title": "Shao et al.",
+    "authors": "",
+    "year": 2025,
+    "level": 2,
+    "roles": [
+      "Reviewer"
+    ],
+    "workflow": [
+      "Visual Mapping",
+      "Presentation"
+    ],
+    "guidelines": [
+      "G4"
+    ],
+    "link": "",
+    "subtags": {
+      "multi_modality": 0,
+      "multi_term_dialogue": 0
+    }
+  },
+  {
+    "id": "ava2024",
+    "title": "AVA",
+    "authors": "",
+    "year": 2024,
+    "level": 3,
+    "roles": [
+      "Planner",
+      "Creator",
+      "Reviewer",
+      "Context Manager"
+    ],
+    "workflow": [
+      "Data Processing",
+      "Visual Mapping",
+      "View Transformation"
+    ],
+    "guidelines": [
+      "G1",
+      "G3",
+      "G4",
+      "G5",
+      "G6"
+    ],
+    "link": "",
+    "subtags": {
+      "multi_modality": 1,
+      "multi_term_dialogue": 1
+    }
+  }
+]
